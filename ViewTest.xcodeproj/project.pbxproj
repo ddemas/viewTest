@@ -19,6 +19,7 @@
 		CBF1CC4519C013FD005ED7E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF1CC2D19C013FC005ED7E6 /* UIKit.framework */; };
 		CBF1CC4D19C013FD005ED7E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBF1CC4B19C013FD005ED7E6 /* InfoPlist.strings */; };
 		CBF1CC4F19C013FD005ED7E6 /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CC4E19C013FD005ED7E6 /* ViewTestTests.m */; };
+		CBF1CC5A19C01597005ED7E6 /* DDSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF1CC5919C01596005ED7E6 /* DDSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		CBF1CC4A19C013FD005ED7E6 /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		CBF1CC4C19C013FD005ED7E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBF1CC4E19C013FD005ED7E6 /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		CBF1CC5819C01592005ED7E6 /* DDSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDSimpleView.h; sourceTree = "<group>"; };
+		CBF1CC5919C01596005ED7E6 /* DDSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				CBF1CC3819C013FD005ED7E6 /* DDAppDelegate.h */,
 				CBF1CC3919C013FD005ED7E6 /* DDAppDelegate.m */,
+				CBF1CC5819C01592005ED7E6 /* DDSimpleView.h */,
+				CBF1CC5919C01596005ED7E6 /* DDSimpleView.m */,
 				CBF1CC3B19C013FD005ED7E6 /* Images.xcassets */,
 				CBF1CC3019C013FD005ED7E6 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CBF1CC3A19C013FD005ED7E6 /* DDAppDelegate.m in Sources */,
+				CBF1CC5A19C01597005ED7E6 /* DDSimpleView.m in Sources */,
 				CBF1CC3619C013FD005ED7E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
